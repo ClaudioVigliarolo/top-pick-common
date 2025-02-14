@@ -22,12 +22,12 @@ export interface SearchResultCreated {
     id: number;
     link: string;
 }
-export declare enum SearchType {
+export enum SearchType {
     Article = "article",
     Video = "video",
     Image = "image"
 }
-export declare enum SearchKeywordType {
+export enum SearchKeywordType {
     Automatic = "automatic",
     Manual = "manual",
     News = "news"

@@ -1,14 +1,14 @@
-export declare enum Lang {
+export enum Lang {
     IT = "it",
     EN = "en",
     FR = "fr",
     ES = "es"
 }
-export declare enum BooleanValues {
+export enum BooleanValues {
     True = "true",
     False = "false"
 }
-export declare enum ValidationAction {
+export enum ValidationAction {
     Reject = "reject",
     Confirm = "confirm"
 }

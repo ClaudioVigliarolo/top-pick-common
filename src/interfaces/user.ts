@@ -8,7 +8,7 @@ export interface UserCreated {
     lastname: string;
     profession: string;
 }
-export declare enum UserRole {
+export enum UserRole {
     Admin = "ADMIN",
     Creator = "CREATOR",
     Default = "DEFAULT",

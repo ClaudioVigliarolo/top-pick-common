@@ -1,6 +1,6 @@
 {
   "name": "@toppick/common",
-  "version": "1.1.194",
+  "version": "2.0.0",
   "description": "",
   "main": "./build/index.js",
   "types": "./build/index.d.ts",
@@ -10,7 +10,7 @@
   "scripts": {
     "clean": "del build/*",
     "build": "tsc",
-    "pub": "git add . && git commit -m \"Updates\" && git push && npm version patch && npm run build && npm publish"
+    "pub": "git add . && git commit -m \"Updates\" && npm version patch && npm run build && npm publish"
   },
   "keywords": [],
   "author": "",

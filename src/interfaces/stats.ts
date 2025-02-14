@@ -1,4 +1,4 @@
-export declare enum StatAction {
+export enum StatAction {
     CategoryCreate = "category create",
     CategoryUpdate = "category update",
     CategoryDelete = "category delete",
@@ -15,7 +15,7 @@ export declare enum StatAction {
     ResourceUpdate = "resource update",
     ResourceDelete = "resource delete"
 }
-export declare enum StatTopicAction {
+export enum StatTopicAction {
     Update = "update",
     View = "view"
 }

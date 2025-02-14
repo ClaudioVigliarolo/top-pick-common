@@ -1,5 +1,5 @@
 import { SearchKeyword } from "./search";
-export declare enum TopicLevel {
+export enum TopicLevel {
     Easy = "easy",
     Medium = "medium",
     Hard = "hard"
@@ -90,7 +90,7 @@ export interface TopicCreated {
         interest_id: number;
     }[];
 }
-export declare enum TopicType {
+export enum TopicType {
     Default = "default",
     Discussion = "discussion",
     SpeedFriending = "speed friending",
@@ -103,7 +103,7 @@ export interface MyTopic {
 export interface TopicStat {
     topics: TopicFeatured;
 }
-export declare enum TopicSource {
+export enum TopicSource {
     Toppick = "TopPick Creators",
     TESLJournal = "The Internet TESL Journal",
     ESLDiscussions = "ESL Conversation Questions"

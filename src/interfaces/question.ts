@@ -33,12 +33,12 @@ export interface Question {
     topics?: TopicFeatured;
     created_by_creator: boolean;
 }
-export declare enum ValidationStatus {
+export enum ValidationStatus {
     Active = "active",
     Pending = "pending",
     Rejected = "rejected"
 }
-export declare enum QuestionType {
+export enum QuestionType {
     Default = "default",
     Discussion = "discussion",
     SpeedFriending = "speed friending",

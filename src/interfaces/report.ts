@@ -8,7 +8,7 @@ export interface Report {
         title: string;
     };
 }
-export declare enum ReportReason {
+export enum ReportReason {
     Pertinence = "Not Pertinent",
     Language = "Rough Language",
     Other = "Something Else"
