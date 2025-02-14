@@ -1,4 +1,4 @@
-import { QuestionType, StatAction, StatTopicAction, UserRole, ValidationAction, ValidationStatus } from "../interfaces";
+import { QuestionType, SearchType, StatAction, StatTopicAction, UserRole, ValidationAction, ValidationStatus } from "../interfaces";
 import { SupportSubject } from "../interfaces/support";
 
 export function validateUserId(input: any): boolean {
@@ -189,6 +189,14 @@ export function validateQuestionTitle(input: any): boolean {
 
 export function validateUserRole(value: any): boolean {
     if (!Object.values(UserRole).includes(value)) {
+        return false;
+    }
+    return true;
+}
+
+export function validateSearchType(value: any): boolean
+{
+    if (!Object.values(SearchType).includes(value)) {
         return false;
     }
     return true;
