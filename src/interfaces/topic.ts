@@ -38,9 +38,10 @@ export interface Topic {
     level: TopicLevel;
     description: string;
     image: string;
-    topic_tags?: TopicTag[];
-    topics_related_topicsTotopics_related_source_id?: {
-        topics_topicsTotopics_related_dest_id: {
+    social_tags: TopicTag[];
+    search_tags: TopicTag[];
+    topics_related_topics_related_source_idTotopics?: {
+        topics_topics_related_dest_idTotopics: {
             id: number;
             title: string;
             image: string;
@@ -85,7 +86,8 @@ export interface TopicCreated {
     categories: {
         category_id: number;
     }[];
-    topic_tags: TopicTag[];
+    social_tags: TopicTag[];
+    search_tags: TopicTag[];
     topic_interests: {
         interest_id: number;
     }[];
