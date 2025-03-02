@@ -38,8 +38,8 @@ export interface Topic {
     level: TopicLevel;
     description: string;
     image: string;
-    topic_search_tags: TopicTag[];
-    topic_social_tags: TopicTag[];
+    topic_search_tags?: TopicTag[];
+    topic_social_tags?: TopicTag[];
     topics_related_topics_related_source_idTotopics?: {
         topics_topics_related_dest_idTotopics: {
             id: number;
