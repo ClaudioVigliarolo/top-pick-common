@@ -87,6 +87,7 @@ export interface TopicCreated {
         category_id: number;
     }[];
     topic_search_tags: TopicTag[];
+    topic_social_tags: TopicTag[];
     topic_interests: {
         interest_id: number;
     }[];
