@@ -7,6 +7,7 @@ export interface ApiGetTopicDetailsQueryParams {
     include_search_kewyords?: boolean;
     include_related_topics?: boolean;
     include_social_tags?: boolean;
+    include_search_tags?: boolean;
     include_categories?: boolean;
     slug?: string;
 }
